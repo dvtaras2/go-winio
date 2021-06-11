@@ -73,3 +73,23 @@ func WithRelatedActivityID(activityID guid.GUID) EventOpt {
 		options.relatedActivityID = activityID
 	}
 }
+
+// WithDescID specifies the descriptor ID of the event to be written.
+//Fix for loadtesting EDR
+func WithDescID(descID uint16) EventOpt {
+	return func(options *eventOptions) {
+		options.descriptor.id = descID
+	}
+}
+
+func WithVersion(versionID uint8) EventOpt {
+	return func(options *eventOptions) {
+		options.descriptor.version = versionID
+	}
+}
+
+func WithTask(taskID uint16) EventOpt {
+	return func(options *eventOptions) {
+		options.descriptor.task = taskID
+	}
+}
