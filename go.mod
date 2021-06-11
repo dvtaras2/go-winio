@@ -1,4 +1,4 @@
-module github.com/Microsoft/go-winio
+module github.com/dvtaras2/go-winio
 
 go 1.12
 

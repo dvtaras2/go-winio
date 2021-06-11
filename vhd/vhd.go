@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"syscall"
 
-	"github.com/Microsoft/go-winio/pkg/guid"
+	"github.com/dvtaras2/go-winio/pkg/guid"
 	"github.com/pkg/errors"
 	"golang.org/x/sys/windows"
 )

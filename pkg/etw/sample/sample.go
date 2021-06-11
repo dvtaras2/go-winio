@@ -8,8 +8,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Microsoft/go-winio/pkg/etw"
-	"github.com/Microsoft/go-winio/pkg/guid"
+	"github.com/dvtaras2/go-winio/pkg/etw"
+	"github.com/dvtaras2/go-winio/pkg/guid"
 	"github.com/sirupsen/logrus"
 )
 

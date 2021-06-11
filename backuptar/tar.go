@@ -15,7 +15,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/Microsoft/go-winio"
+	"github.com/dvtaras2/go-winio"
 	"golang.org/x/sys/windows"
 )
 

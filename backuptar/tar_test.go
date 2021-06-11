@@ -11,7 +11,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Microsoft/go-winio"
+	"github.com/dvtaras2/go-winio"
 )
 
 func ensurePresent(t *testing.T, m map[string]string, keys ...string) {
